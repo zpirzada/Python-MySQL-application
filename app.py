@@ -13,7 +13,7 @@ mysql_password = response['Parameter']['Value']
 
 # Connect to MySQL
 db_connection = mysql.connector.connect(
-    host="database-1.cnqaegruhvch.us-east-1.rds.amazonaws.com",
+    host="test.cnqaegruhvch.us-east-1.rds.amazonaws.com",
     user="admin",
     password=mysql_password,
     database="test"
